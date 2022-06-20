@@ -217,7 +217,7 @@ function init() {
             
             <tr>
                 <td id="coffeeOut">
-                    <c:if test="${coffee != null}">
+                    <c:if test="${not empty coffee}">
                         <img src="image/${coffee}.png" height="110px" />
                     </c:if>
                 </td>
